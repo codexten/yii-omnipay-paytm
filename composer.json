@@ -8,7 +8,7 @@
   "type": "library",
   "require": {
     "codexten/yii-omnipay": "~2.0.0",
-    "codexten/omnipay-paytm": "~1.0.0"
+    "tink/omnipay-paytm": "~1.0.0"
   },
   "autoload": {
     "psr-4": {
@@ -19,7 +19,7 @@
     "branch-alias": {
       "dev-master": "2.0.x-dev"
     },
-    "config-plugin": {
+    "sconfig-plugin": {
       "params": "config/params.php",
       "omnipaypaytm": [
         "$omnipay",
