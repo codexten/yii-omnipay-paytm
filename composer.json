@@ -1,0 +1,30 @@
+{
+  "name": "codexten/yii-omnipay-paytm",
+  "description": "yii omnipay paytm",
+  "keywords": [
+    "hosts",
+    "codexten"
+  ],
+  "type": "library",
+  "require": {
+    "codexten/yii-omnipay": "~2.0.0",
+    "codexten/omnipay-paytm": "~1.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "codexten\\yii\\omnipay\\paytm\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0.x-dev"
+    },
+    "config-plugin": {
+      "params": "config/params.php",
+      "omnipaypaytm": [
+        "$omnipay",
+        "config/omnipaypaytm.php"
+      ]
+    }
+  }
+}
