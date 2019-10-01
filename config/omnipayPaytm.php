@@ -5,16 +5,16 @@
 return [
     'components' => [
         'omnipay' => [
-            'defaultGateway' => 'Paytm',
+            'defaultGateway' => 'paytm',
             'gateways' => [
                 'paytm' => [
                     'driverName' => 'Paytm',
                     'parameters' => [
-                        'mid' =>$params['paytm.mid'],
-                        'key' => $params['paytm.key'],
-                        'industryTypeId' =>$params['paytm.industryTypeId'],
-                        'channelId' =>$params['paytm.channelId'],
-                        'webSite' =>$params['paytm.webSite'],
+                        'MID' =>$params['paytm.mid'],
+                        'MerchantKey' => $params['paytm.key'],
+                        'IndustryTypeId' =>$params['paytm.industryTypeId'],
+                        'ChannelId' =>$params['paytm.channelId'],
+                        'Website' =>$params['paytm.webSite'],
                         'environment' =>$params['paytm.environment'],
                     ],
                 ],
